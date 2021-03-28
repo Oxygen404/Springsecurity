@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-uf6ijeh3w3s422l9iuo.mysql.rds.aliyuncs.com:3306/zhang?useUnicode=true&characterEncoding=utf8&useSSL=true
+    username: oxygen
+    password: Zh123456
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  mapper-locations: classpath:dao/*.xml
+
+logging:
+  level:
+    com.dpb: debug
+
+rsa:
+  key:
+    pubKeyFile: c:\tools\auth_key\id_key_rsa.pub
+    priKeyFile: c:\tools\auth_key\id_key_rsa
+

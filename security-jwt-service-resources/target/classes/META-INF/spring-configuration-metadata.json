@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa.key",
+      "type": "com.oxygen.demo.config.RsaKeyProperties",
+      "sourceType": "com.oxygen.demo.config.RsaKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.key.pub-key-file",
+      "type": "java.lang.String",
+      "sourceType": "com.oxygen.demo.config.RsaKeyProperties"
+    },
+    {
+      "name": "rsa.key.public-key",
+      "type": "java.security.PublicKey",
+      "sourceType": "com.oxygen.demo.config.RsaKeyProperties"
+    }
+  ],
+  "hints": []
+}

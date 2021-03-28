@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zhang?useUnicode=true&characterEncoding=utf8&useSSL=true
+    username: ##### 这里要改成自己的账号密码
+    password: #####
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  mapper-locations: classpath:dao/*.xml
+
+logging:
+  level:
+    com.dpb: debug
+
+rsa:
+  key:
+    pubKeyFile: c:\tools\auth_key\id_key_rsa.pub
+    priKeyFile: c:\tools\auth_key\id_key_rsa
+

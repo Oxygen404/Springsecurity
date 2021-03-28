@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/security-jwt-authc-server/security-jwt-authc-server.iml" filepath="$PROJECT_DIR$/security-jwt-authc-server/security-jwt-authc-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-jwt-common/security-jwt-common.iml" filepath="$PROJECT_DIR$/security-jwt-common/security-jwt-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-jwt-service-resources/security-jwt-service-resources.iml" filepath="$PROJECT_DIR$/security-jwt-service-resources/security-jwt-service-resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso单点登录.iml" filepath="$PROJECT_DIR$/sso单点登录.iml" />
+    </modules>
+  </component>
+</project>
